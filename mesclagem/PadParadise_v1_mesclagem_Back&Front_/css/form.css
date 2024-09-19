@@ -1,0 +1,80 @@
+.form-section {
+  min-width: 600px;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="tel"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+#tipoUser, #tipoUser input[type="radio"] {
+  text-align: center;
+}
+.radio-group {
+  display: flex;
+}
+
+.radio-group label {
+  display: flex;
+  font-weight: normal;
+  color: #555;
+  text-align: center;
+  padding-left: 170px;
+  padding-right: 25px;
+}
+
+
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
